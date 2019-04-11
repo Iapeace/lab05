@@ -43,8 +43,14 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intencja, 1);
     }
 
-//sad
-
-    //TODO zrobic to i owo;
-    //doadc komentrarz
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        if(requestCode==1 && resultCode==RESULT_OK)
+        {
+            Bundle extras = data.getExtras();
+            String nowy = (String)extras.get("wpis");
+            target.add(nowy);adapter.notifyDataSetChanged();
+        }
+    }
 }
