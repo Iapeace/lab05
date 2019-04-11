@@ -11,3 +11,4 @@ public class DodajWpis extends AppCompatActivity {
         setContentView(R.layout.activity_dodaj_wpis);
     }
 }
+//sad

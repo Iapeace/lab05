@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intencja, 1);
     }
 
-
+//sad
 
     //TODO zrobic to i owo;
     //doadc komentrarz
