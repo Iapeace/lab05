@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     //TODO zrobic to i owo;
     //doadc komentrarz
+    //cokolwiek
     //ckowliek
 }
