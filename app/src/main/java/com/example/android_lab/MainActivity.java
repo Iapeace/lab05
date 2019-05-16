@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         this.target = new ArrayList<String>();
         this.target.addAll(Arrays.asList(values));
 
-        
+
         this.adapter = new SimpleCursorAdapter(
                 this,
                 android.R.layout.simple_list_item_2,
